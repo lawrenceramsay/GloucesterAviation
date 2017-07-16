@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>Gloucester Aviation Medicals</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./resources/css/master.css" type="text/css">
+  <link rel="shortcut icon" href="./resources/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="./resources/images/favicon.png" type="image/x-icon">
+  <script type="text/javascript" src="./resources/css/classie/classie.js"></script>
+<body>
+
+<!-- Navbar (sit on top) -->
+
+<header>
+  <div class="title">
+    <a href="./index.html#home" class="button"><b>Gloucester Aviation Medicals</b></a>
+  </div>
+    <!-- Float links to the right. Hide them on small screens -->
+  <div class="links">
+    <a href="./index.html#about" class="button">About</a>
+    <a href="./index.html#medicals" class="button">Medicals</a>
+    <a href="./index.html#team" class="button">Team</a>
+    <a href="http://gloster.aircrewmedicals.org" class="button">Book</a>
+    <a href="./index.html#contact" class="button">Contact</a>
+    <a href="./index.html#find-us" class="button">Find us</a>
+  </div>
+
+  <div class="truncated-menu">
+    <span onclick="openNav()">&#9776;</span>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html#about" class="button">About</a>
+    <a href="./index.html#medicals" class="button">Medicals</a>
+    <a href="./index.html#team" class="button">Team</a>
+    <a href="http://gloster.aircrewmedicals.org" class="button">Book</a>
+    <a href="./index.html#contact" class="button">Contact</a>
+    <a href="./index.html#find-us" class="button">Find us</a>
+  </div>
+</header>
+
+<div class="content">
+  <!-- BANNER -->
+  <div class="banner">
+    <img class="banner=image" src="./resources/images/biplane-sunset.jpg" alt="Sunset">
+    <div class="banner-title">
+        <!--<span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> -->
+        <h1>Aviators for Aviators</h1>
+
+    </div>
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px">
+
+      <!-- TagLine -->
+    <div class="w3-container w3-padding-32 w3-row-padding goto">
+      <h4 class="tag-line">Providing a friendly, professional service for members of the aviation community</h4>
+    </div>
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-row-padding goto" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <h4>Who we are</h4>
+        <p>We are a family run business conveniently located at Gloucestershire Airport. We offer medicals for UK and US pilots, air traffic controllers and cabin crew. The medical team comprises Dr Ian Ramsay and Dr Emma Ramsay.Both of whom hold PPLs and enjoy flying Cessnas out of Gloucestershire Airport. </p>
+      </div>
+      <!--
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <h4>Multi-Authority Aviation Medical Examinations</h4>
+        <p>Dr Ramsay can undertake medical examinations on behalf of the FAA in addition to EASA. He is able to undertake joint authority examinations during a single visit.</p>
+      </div>
+    -->
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <h4>Medical Services</h4>
+        <p>In addition to regular aviation medical services, Dr Ramsay offers support and consultation on all medical aspects that may have an impact on your flying licence.</p>
+      </div>
+    </div>
+
+    <!-- Medical Section -->
+
+    <div class="w3-container w3-padding-32 goto" id="medicals">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Medicals</h3>
+
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="./medical-info.html#easa-class-1">
+          <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Pilot EASA Class 1</div>
+          <img src="./resources/images/boeing.jpg" alt="Boeing" style="width:100%">
+        </div>
+        </a>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="./medical-info.html#easa-class-2">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Pilot EASA Class 2 and LAPL</div>
+            <img src="./resources/images/cessna.jpg" alt="Cessna" style="width:100%">
+          </div>
+        </a>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="./medical-info.html#eu-class-3">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">ATCO EU Class 3</div>
+            <img src="./resources/images/air-traffic-tower.jpg" alt="Air Traffic Tower" style="width:100%">
+          </div>
+        </a>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="./medical-info.html#cabin-crew">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Cabin Crew Medical</div>
+            <img src="./resources/images/plane-cabin.jpg" alt="Cabin" style="width:100%">
+          </div>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Team section -->
+    <div class="w3-container w3-padding-32 goto" id="team">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Team</h3>
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="./resources/images/drRamsay_0.jpg" alt="Ian" style="width:100%">
+          <h3>Dr Ian Ramsay</h3>
+          <p class="w3-opacity">Founder</p>
+          <p>Dr Ian Ramsay is qualified to undertake EASA medicals, including revalidation of Class 1, initial and revalidation of Class 2, Class 3 and cabin crew medicals. He is also qualified to undertake revalidation of Class 1 FAA medicals. Dr Ramsay is an experienced AME, having performed aviation medicals for 30 years, and previous to this he was a GP principal in Cheltenham.</p>
+          <p><button class="w3-button w3-light-grey w3-block">    <a href="http://gloster.aircrewmedicals.org" target="_blank" title="Gloster Aviation Medical Services Bookings">Book</a></button></p>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="./resources/images/emma.jpg" alt="Emma" style="width:100%">
+          <h3>Dr Emma Ramsay</h3>
+          <p class="w3-opacity">Partner</p>
+          <p>Dr Emma Ramsay is qualified to undertake initial and revalidation of Class 2 medicals. She has recently qualified as an AME and also works as a GP in Bristol.</p>
+          <p><button class="w3-button w3-light-grey w3-block">    <a href="http://gloster.aircrewmedicals.org" target="_blank" title="Gloster Aviation Medical Services Bookings">Book</a></button></p>
+        </div>
+        <!--
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="./resources/images/goolam.jpg" alt="Goolam" style="width:100%">
+          <h3>Dr Goolam Kamathia</h3>
+          <p class="w3-opacity">Partner</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">    <a href="http://gloster.aircrewmedicals.org" target="_blank" title="Gloster Aviation Medical Services Bookings">Book</a></button></p>
+        </div>
+      -->
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-32 goto" id="contact">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+      <p>Please contact us with any enquiries.</p>
+      <!--
+      <form action="/action_page.php" target="_blank">
+        <input class="w3-input" type="text" placeholder="Name" required name="Name">
+        <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+        <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+        <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+        <button class="w3-button w3-black w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    -->
+      <!-- Do not change the code! -->
+      <a id="foxyform_embed_link_885177" href="http://www.foxyform.com/">foxyform</a>
+      <script type="text/javascript">
+      (function(d, t){
+         var g = d.createElement(t),
+             s = d.getElementsByTagName(t)[0];
+         g.src = "http://www.foxyform.com/js.php?id=885177&sec_hash=eebc464a150&width=350px";
+         s.parentNode.insertBefore(g, s);
+      }(document, "script"));
+      </script>
+      <!-- Do not change the code! -->
+
+      <p><span id="contact-title">Phone:</span> (+44) 01452 712212</p>
+      <p><span id="contact-title">Address:</span> </p>
+      <div class="contact-address">
+        <p>1st Floor</p>
+        <p>Hangar SE43</p>
+        <p>Gloucestershire Airport</p>
+        <p>Staverton</p>
+        <p>Glos</p>
+        <p>GL51 6SP</p>
+      </div>
+    </div>
+
+  <!-- Google Map -->
+  <div class="w3-container w3-padding-32 goto" id="find-us">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Find us</h3>
+      <p>On entering the Airport via the new access road turn left at the T-junction opposite the Terminal Building. Follow the perimeter road for 0.4 miles until you see the Babcock Helicopter Headquarters on the left. Hangar SE43 is on the right immediately opposite Babcock and the entry door is on the right of the building beside some green oil tanks. Gloster Aviation Medicals offices are on the first floor.</p>
+      <p>Our Surgery Location moved in June 2012, as shown in the map below.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15107.445261343231!2d-2.159721!3d51.891368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487104c19d566f57%3A0xb543081688265fc8!2sStaverton%2C+Cheltenham+GL51+6SP%2C+UK!5e1!3m2!1sen!2sus!4v1495090340305" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <!-- End page content -->
+  </div>
+
+  <!--
+  <div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+  -->
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-16">
+    <img  src="./resources/images/faa-logo.png" alt="FAA" class="logo" id="faa">
+    <img  src="./resources/images/caa-logo.jpg" alt="CAA" class="logo" id="caa">
+    </footer>
+
+  <!-- JAVACRIPT -->
+  <script type="text/javascript">
+  /* Set the width of the side navigation to 250px */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <!--
+  <script>
+  $(window).on("scroll", function() {
+     if ($(this).scrollTop() > 100) {
+        $("header").css("opacity","1");
+     }
+     else {
+        $("header").css("background","#1a1919");
+        $("header").css("transition", "background-color", "0.5s")
+     }
+  });
+  </script>
+-->
+<script type="text/javascript">
+function init() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 50,
+            header = document.querySelector("header");
+        if (distanceY > shrinkOn) {
+            classie.add(header,"smaller");
+        } else {
+            if (classie.has(header,"smaller")) {
+                classie.remove(header,"smaller");
+            }
+        }
+    });
+}
+window.onload = init();
+</script>
+
+</div>
+</body>
+</html>
