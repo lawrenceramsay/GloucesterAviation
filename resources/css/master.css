@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
 html {
   font-size: 16px;
-
 }
 
 body {
   background-attachment: fixed;
-  font-family: Verdana, sans-serif;
+  font-family: 'Roboto', Verdana, sans-serif;
   line-height: 1.5;
 }
 .content {
@@ -159,8 +160,9 @@ header a {
 footer {
   display: flex;
   justify-content: space-between;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background-color: hsl(0, 0%, 20%);
 }
 .logo {
   width: 5%;
@@ -174,8 +176,8 @@ footer {
   float: right;
 }
 #medicals img {
-  height: 340;
-  width: 420;
+  height: 15rem;
+  width: 21rem;
 }
 
 /* CONTACT */
@@ -184,4 +186,30 @@ footer {
 }
 .contact-address p {
   margin: 0;
+}
+
+/* MEDICAL FEES */
+#general-medical-info {
+  position: relative;
+  top: 4rem;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+table, th, td {
+    border: 1px solid darkgray;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+#table-section {
+  background-color: hsla(167, 24%, 84%, 1);
+  font-weight: 900;
+  text-align: left;
+}
+#first-col {
+  font-weight: 700;
+  text-align: left;
 }
