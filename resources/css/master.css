@@ -187,6 +187,10 @@ footer {
 .contact-address p {
   margin: 0;
 }
+iframe {
+  height: 27rem;
+  overflow-y: hidden;
+}
 
 /* MEDICAL FEES */
 #general-medical-info {
