@@ -184,12 +184,8 @@ footer {
 #contact-title {
   font-weight: bold;
 }
-.contact-address p {
-  margin: 0;
-}
-iframe {
-  height: 27rem;
-  overflow-y: hidden;
+#contact p, #contact a {
+  margin: 0.5rem;
 }
 
 /* MEDICAL FEES */
